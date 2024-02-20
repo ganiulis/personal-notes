@@ -1,2 +1,3 @@
-# knowledge-base
-My personal knowledge base.
+# Personal Knowledge Base
+
+Will be filled up sometime in the future.
