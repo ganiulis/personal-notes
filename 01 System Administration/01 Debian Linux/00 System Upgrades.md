@@ -14,10 +14,9 @@ This is a short recipe for a minimal, up-to-date Debian system.
 
 # Tips
 
-1. Remove obsolete packages with `apt purge --auto-remove ... && apt clean ...`.
+1. Remove obsolete packages with `apt purge --auto-remove ... && apt clean ...`. Since I'm a [Vim](https://www.vim.org) and [Neovim](https://neovim.io) user, I usually remove [nano](https://www.nano-editor.org) from my system.
 
 # Sources
 
-1. Available Debian releases: https://www.debian.org/releases/.
-2. Upgrade instructions from the Debian Wiki: https://wiki.debian.org/DebianUpgrade.
-
+1. Debian Releases. The Debian Project. Accessed 2024-02-21. https://www.debian.org/releases/.
+2. DebianUpgrade. The Debian Wiki. Accessed 2024-02-21. https://wiki.debian.org/DebianUpgrade.
