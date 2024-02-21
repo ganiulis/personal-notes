@@ -7,7 +7,7 @@ The system should be updated at least once a week but no more than once a day.
 # Instructions
 
 1. Open your terminal emulator as the root user (either directly or with `su` if logged-in as a regular user).
-2. Connect to the Internet if disconnected.
+2. [Connect to the Internet](https://wiki.gentoo.org/wiki/Handbook:AMD64/Installation/Networking) if disconnected.
 3. Synchronize currently eselected package repositories with `emaint sync`.
 4. Update packages with `emerge -avuDN --with-bdeps=y @world`. Proceed when prompted if the provided update list appears fine.
 5. Update USE flag requirements through `dispatch-conf` if changes are required, and restart with `emerge -avuDN --with-bdeps=y @world`.
