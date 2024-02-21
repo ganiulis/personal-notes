@@ -15,7 +15,7 @@ Feedback is an opportunity to become a better team member and software developer
 3. Require the first three prompts. Only the fourth prompt is optional.
 4. Send the form to peers you work with daily and wait a week.
 5. Check the responses once the week has passed.
-6. Collect whatever you find actionable and write up action points for yourself with a deadline of a few months.
+6. Note down whatever responses you find actionable and make action points for yourself with a deadline of a few months.
 7. Send the form to the same peers again once these action points have been fulfilled. The same one can do.
 8. Wait another week.
 9. Compare old responses with new ones and self-evalute whether you've made positive progress. Course-correct if not.
