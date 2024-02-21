@@ -14,7 +14,7 @@ This is a short recipe for a minimal, up-to-date Debian system.
 
 # Tips
 
-1. Remove obsolete packages with `apt purge --auto-remove ... && apt clean ...`. Since I'm a [Vim](https://www.vim.org) and [Neovim](https://neovim.io) user, I usually remove [nano](https://www.nano-editor.org) from my fresh systems.
+1. Remove obsolete packages with `apt purge --auto-remove ... && apt clean ...`. Since I'm a [Vim](https://www.vim.org) and [Neovim](https://neovim.io) user, I usually remove the default [nano](https://www.nano-editor.org) text editor from my system.
 
 # Sources
 
