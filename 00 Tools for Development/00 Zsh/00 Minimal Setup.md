@@ -37,7 +37,7 @@ zplug load
 
 # Resources
 
-1. Oh My Zsh homepage. Accessed 2024-01-10. https://ohmyz.sh
-2. Zplug homepage. Accessed 2024-01-10. http://zplug.github.io
-3. "Zsh." The Debian Wiki. Accessed 2024-01-09. https://wiki.debian.org/Zsh
+1. Oh My Zsh homepage. Accessed 2024-01-10. https://ohmyz.sh.
+2. Zplug homepage. Accessed 2024-01-10. http://zplug.github.io.
+3. "Zsh." The Debian Wiki. Accessed 2024-01-09. https://wiki.debian.org/Zsh.
 
