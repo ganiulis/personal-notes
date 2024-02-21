@@ -6,7 +6,7 @@ This repository is structured in the [Johnny.Decimal](https://johnnydecimal.com)
 
 Everything is a work-in-progress. As I change so will this repository.
 
-# Index
+# Resources
 
 - [00 Tools for Development/00 Zsh/00 Minimal Setup.md]()
 - [01 System Administration/00 Linux/00 User Management.md]()
