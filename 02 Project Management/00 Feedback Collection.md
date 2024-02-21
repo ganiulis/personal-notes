@@ -1,8 +1,8 @@
 # Introduction
 
-Collecting feedback from peers is usually a good idea.
+Collecting feedback from peers is a pretty good idea.
 
-It's an opportunity to become a better developer and team member through asking the right questions.
+Feedback is an opportunity to become a better team member and software developer by asking the right questions.
 
 # Instructions
 
