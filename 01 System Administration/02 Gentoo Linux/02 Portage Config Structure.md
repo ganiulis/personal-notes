@@ -24,3 +24,8 @@ The most important configuration file is `make.conf` where it's possible to set 
 2. `CXXFLAGS`.
 3. `USE` supersedes any default USE flags for package defaults.
 4. `ACCEPT_KEYWORDS` supersedes the default profile flags and allows to pick the stable or unstable branch for package defaults.
+
+# Tips
+
+1. Set `MAKEOPTS` in `make.conf` according to the capabilities of the CPU and RAM.
+2. The default `ACCEPT_LICENSE` setting is `-* @FREE.
