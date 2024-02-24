@@ -28,4 +28,4 @@ The most important configuration file is `make.conf` where it's possible to set 
 # Tips
 
 1. Set `MAKEOPTS` in `make.conf` according to the capabilities of the CPU and RAM.
-2. The default `ACCEPT_LICENSE` setting is `-* @FREE.
+2. The default `ACCEPT_LICENSE` setting is `-* @FREE`. This setting used to be `* -@EULA` for older Gentoo builds: https://www.gentoo.org/support/news-items/2019-05-23-accept_license.html.
