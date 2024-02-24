@@ -15,3 +15,7 @@ The default Gentoo repository may not have the desired package. However, more pa
 9. Check if the package needs any additional configuration with `emerge --ask ... foo/bar`.
 10. Update configuration manually or with `dispatch-conf`.
 11. Emerge the package.
+
+# Tips
+
+1. It's recommended to update all packages before emerging more.
