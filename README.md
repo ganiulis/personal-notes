@@ -1,6 +1,6 @@
 # Introduction
 
-See [Table of Contents](TOC).
+See [Table of Contents](TOC.md).
 
 I publish my personal notes here.
 
