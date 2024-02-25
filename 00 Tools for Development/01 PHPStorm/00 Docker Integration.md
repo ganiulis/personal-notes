@@ -41,7 +41,7 @@ PHPStan can be connected with PHPStorm.
 2. Select and enable the preconfigured PHP interpreter.
 3. Set the desired validation level.
 4. Set the configuration file `.../phpstan.neon`.
-5. Set the autoload file `.../vendor/autoload.php.`
+5. Set the autoload file `.../vendor/autoload.php`.
 
 # Tips
 
