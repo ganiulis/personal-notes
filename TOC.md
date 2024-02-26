@@ -1,5 +1,6 @@
 # Table of Contents
 
+- [01 Health and Fitness/00 Brazilian Jiu-Jitsu/00 Basic Positions](https://ganiulis.github.io/personal-notes/01%20Health%20and%20Fitness/00%20Brazilian%20Jiu-Jitsu/00%20Basic%20Positions)
 - [00 Software Development/01 System Administration/02 Gentoo Linux/03 Package Sets](https://ganiulis.github.io/personal-notes/00%20Software%20Development/01%20System%20Administration/02%20Gentoo%20Linux/03%20Package%20Sets)
 - [00 Software Development/01 System Administration/02 Gentoo Linux/04 USE Flags](https://ganiulis.github.io/personal-notes/00%20Software%20Development/01%20System%20Administration/02%20Gentoo%20Linux/04%20USE%20Flags)
 - [00 Software Development/01 System Administration/02 Gentoo Linux/05 Portage Overlays](https://ganiulis.github.io/personal-notes/00%20Software%20Development/01%20System%20Administration/02%20Gentoo%20Linux/05%20Portage%20Overlays)
