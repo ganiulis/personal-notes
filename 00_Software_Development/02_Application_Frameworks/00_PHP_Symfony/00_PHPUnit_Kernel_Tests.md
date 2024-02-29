@@ -1,10 +1,13 @@
 # Summary
 
-Tests which extend `Symfony\Bundle\FrameworkBundle\Test\KernelTestCase` may be confusing to set up for first-time users. However, the required configuration is minimal.
+Tests which extend `Symfony\Bundle\FrameworkBundle\Test\KernelTestCase` may be
+confusing to set up for first-time users. However, the required configuration is
+minimal.
 
 # Instructions
 
-Minimal `phpunit.xml` configuration:
+Minimal `phpunit.xml` configuration (extended by
+[Symfony](https://symfony.com)):
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
@@ -24,8 +27,12 @@ Minimal `phpunit.xml` configuration:
     </php>
 
     <testsuites>
-        <testsuite name="Project Test Suite">
-            <directory>tests</directory>
+        <testsuite name="Unit">
+            <directory>tests/Unit</directory>
+        </testsuite>
+        <testsuite name="Functional">
+            <directory>tests/Functional</directory>
+            <file>"tests/Functional/bootstrap.php"</file>
         </testsuite>
     </testsuites>
 
@@ -35,9 +42,56 @@ Minimal `phpunit.xml` configuration:
         </include>
     </coverage>
 </phpunit>
-
 ```
 
-`KERNEL_CLASS=Vengine\RentalAllocation\Kernel` must be set in either `phpunit.xml` or `.env.test`.
+`KERNEL_CLASS=...\Kernel` must be set in one of several places:
+
+1. In `phpunit.xml` as `<env name="KERNEL_CLASS" value="..."/>`.
+2. In`.env.test` and imported with an environment class, such as
+   `Symfony\Component\Dotenv\Dotenv`.
+
+In this case, inside `tests` there must be a `bootstrap.php`, and a secondary
+`bootstrap.php` inside `tests/Functional` for functional tests.
+
+Minimal `bootstrap.php`:
+
+```php
+<?php
+
+declare(strict_types=1);
+
+use Symfony\Component\Dotenv\Dotenv;
+
+(new Dotenv())->bootEnv(dirname(__DIR__) . '/.env.test');
+```
+
+Functional tests which require an intricate setup can have its own bootstrap
+script which imports the real bootstrap and initiates the Kernel and the
+Application mechanisms.
+
+Minimal functional `bootstrap.php`:
+
+```php
+<?php
+
+declare(strict_types=1);
+
+require_once dirname(__DIR__) . '/bootstrap.php';
+
+use ...\Application;
+use ...\Kernel;
+
+$kernel = new Kernel(environment: 'test', debug: false);
+
+$kernel->boot();
+
+$application = new Application($kernel);
+
+// Set up...
+```
+
+In this case you can run `bin/phpunit --testsuite Unit` and
+`bin/phpunit --testsuite Functional` to trigger each bootstrap script
+separately.
 
 Make sure to read the errors if there's more issues.
