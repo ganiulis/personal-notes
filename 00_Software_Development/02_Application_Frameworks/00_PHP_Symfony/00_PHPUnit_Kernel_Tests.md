@@ -78,8 +78,8 @@ declare(strict_types=1);
 
 require_once dirname(__DIR__) . '/bootstrap.php';
 
-use ...\Application;
-use ...\Kernel;
+use Symfony\Bundle\FrameworkBundle\Console\Application;
+use My\Kernel;
 
 $kernel = new Kernel(environment: 'test', debug: false);
 
