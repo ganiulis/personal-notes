@@ -1,8 +1,9 @@
-# Summary
+# PHPStorm Docker Integration
 
 Docker, along with any common PHP extension, has built-in support in PHPStorm.
 
-Many applications within the PHP container can be connected with PHPStorm for seamless development, debugging, and testing.
+Many applications within the PHP container can be connected with PHPStorm for
+seamless development, debugging, and testing.
 
 # Instructions
 
@@ -45,5 +46,5 @@ PHPStan can be connected with PHPStorm.
 
 # Tips
 
-1. Most configuration paths are meant to be used inside the container, not the host machine.
-
+1. Most configuration paths are meant to be used inside the container, not the
+   host machine.
