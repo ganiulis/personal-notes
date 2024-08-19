@@ -70,7 +70,7 @@ software-development:
           title: Version control
           index: index
           subnav:
-            01-github: GitHub
+            github: GitHub
         zsh:
           title: Zsh
           index: zsh
