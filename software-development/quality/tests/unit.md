@@ -1,4 +1,7 @@
-# Unit Testing
+---
+layout: default
+title: Unit testing
+---
 
 Unit tests have several uses, sorted by value:
 

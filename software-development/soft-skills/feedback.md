@@ -1,4 +1,7 @@
-# Introduction
+---
+layout: default
+title: Feedback
+---
 
 Collecting feedback is a pretty good idea.
 
@@ -8,10 +11,10 @@ Feedback is an opportunity to become a better team member and software developer
 
 1. Create a small feedback form. The simpler the the better. [Google Forms](https://www.google.com/forms/about/) is a common choice.
 2. Add four open-ended prompts to the form:
-    1. What should I stop doing?*
-    2. What should I start doing?*
-    3. What should I keep doing?*
-    4. Additional feedback and notes
+   1. What should I stop doing?\*
+   2. What should I start doing?\*
+   3. What should I keep doing?\*
+   4. Additional feedback and notes
 3. Require the first three prompts. Only the fourth prompt is optional.
 4. Send the form to peers you work with daily and wait a week.
 5. Check the responses once the week has passed.

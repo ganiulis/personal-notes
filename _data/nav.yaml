@@ -1,17 +1,25 @@
+martial-arts:
+  title: Martial arts
+  subnav:
+    bjj: BJJ
 software-development:
   title: Software Development
   subnav:
+    data-science:
+      title: Data science
+      subnav:
+        storage-structures: Storage structures
     hardware:
       title: Hardware
       subnav:
-        01-partitions: Partitioning
+        partitions: Partitioning
     linux:
       title: Linux
       subnav:
-        utils:
-          title: Utilities
+        android:
+          title: Android
           subnav:
-            01-users: User management
+            crdroid: crDroid
         debian:
           title: Debian
           index: 00-index
@@ -24,27 +32,45 @@ software-development:
             sets: Sets
             flags: USE flags
             overlays: Overlays
-        android:
-          title: Android
+        utils:
+          title: Utilities
           subnav:
-            01-crdroid: crDroid
+            users: User management
+    php:
+      title: PHP
+      subnav:
+        language:
+          title: Language
+          subnav:
+            opcache-and-jit: OPcache and JIT
+        phpstorm:
+          title: PHPStorm
+          subnav:
+            docker: Docker
+        symfony:
+          title: Symfony
+          sunbav:
+            kernel-tests: Kernel testing
+    quality:
+      title: Quality
+      sunbav:
+        tests:
+          title: Tests
+          subnav:
+            unit: Unit testing
+    soft-skills:
+      title: Soft skills
+      subnav:
+        feedback: Feedback
     tools:
       title: Tools
       path: tools
       subnav:
-        01-version-control:
+        version-control:
           title: Version control
           index: 00-index
           subnav:
             01-github: GitHub
-        02-zsh:
+        zsh:
           title: Zsh
           index: 00-zsh
-        03-phpstorm:
-          title: PHPStorm
-          subnav:
-            01-docker: Docker
-martial-arts:
-  title: Martial arts
-  subnav:
-    01-bjj: BJJ

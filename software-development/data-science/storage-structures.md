@@ -1,4 +1,7 @@
-# Database Storage Structures
+---
+layout: default
+title: Storage structures
+---
 
 ## Hash Table
 

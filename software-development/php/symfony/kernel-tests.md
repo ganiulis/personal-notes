@@ -1,4 +1,7 @@
-# PHPUnit Kernel Tests
+---
+layout: default
+title: Kernel tests
+---
 
 Tests which extend `Symfony\Bundle\FrameworkBundle\Test\KernelTestCase` may be
 confusing to set up for first-time users. However, the required configuration is
