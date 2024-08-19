@@ -1,0 +1,27 @@
+01-software-development:
+  title: Software Development
+  subnav:
+    01-hardware:
+      title: Hardware
+      subnav:
+        01-partitions: Partitioning
+    03-tools:
+      title: Tools
+      path: tools
+      subnav:
+        01-version-control:
+          title: Version control
+          index: 00-version-control
+          subnav:
+            01-github: GitHub
+        02-zsh:
+          title: Zsh
+          index: 00-zsh
+        03-phpstorm:
+          title: PHPStorm
+          subnav:
+            01-docker: Docker
+02-martial-arts:
+  title: Martial arts
+  subnav:
+    01-bjj: BJJ
