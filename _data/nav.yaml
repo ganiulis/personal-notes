@@ -1,34 +1,34 @@
-01-software-development:
+software-development:
   title: Software Development
   subnav:
-    01-hardware:
+    hardware:
       title: Hardware
       subnav:
         01-partitions: Partitioning
-    02-linux:
+    linux:
       title: Linux
       subnav:
-        01-utils:
+        utils:
           title: Utilities
           subnav:
             01-users: User management
-        02-debian:
+        debian:
           title: Debian
           index: 00-index
-        03-gentoo:
+        gentoo:
           title: Gentoo
-          index: 00-index
+          index: index
           subnav:
-            01-analysis: Package analysis
-            02-updates: Package updates
-            03-sets: Sets
-            04-flags: USE flags
-            05-overlays: Overlays
-        04-android:
+            analysis: Package analysis
+            updates: Package updates
+            sets: Sets
+            flags: USE flags
+            overlays: Overlays
+        android:
           title: Android
           subnav:
             01-crdroid: crDroid
-    03-tools:
+    tools:
       title: Tools
       path: tools
       subnav:
@@ -44,7 +44,7 @@
           title: PHPStorm
           subnav:
             01-docker: Docker
-02-martial-arts:
+martial-arts:
   title: Martial arts
   subnav:
     01-bjj: BJJ
