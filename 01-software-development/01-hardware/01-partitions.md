@@ -22,7 +22,7 @@ There's a lot of different disk partition types:
    the system fails. It is easier to recover files from a separate partition or
    to migrate it without reinstalling the entire system.
 
-# Notes
+## Notes
 
 - `EFI` is a newer replacement of `BIOS`. The boot partition can't be encrypted
   like `LUKS` because the computer needs to run instructions from it.
@@ -31,7 +31,3 @@ There's a lot of different disk partition types:
   impossible to boot `LUKS` encrypted file systems without having the USB
   inserted into the computer. This serves as a physical 2FA and forensics
   evasion measure.
-
-# Trace
-
-1. Co-workers.

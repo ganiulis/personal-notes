@@ -1,4 +1,7 @@
-# Summary
+---
+layout: default
+title: Sets
+---
 
 Sets are packages organized for a specific context, such as for system utilities, the desktop environment or development tools.
 

@@ -1,4 +1,7 @@
-# Summary
+---
+layout: default
+title: Package analysis
+---
 
 Package and USE flags can be checked and analyzed with some built-in Portage tools.
 

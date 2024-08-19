@@ -1,4 +1,7 @@
-# crDroid
+---
+layout: default
+title: crDroid
+---
 
 Updating NikGapps:
 

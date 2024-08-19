@@ -1,4 +1,7 @@
-# Summary
+---
+layout: default
+title: Package overlays
+---
 
 The default Gentoo repository may not have the desired package. However, more packages exist in external repositories.
 

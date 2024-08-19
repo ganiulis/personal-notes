@@ -5,13 +5,36 @@
       title: Hardware
       subnav:
         01-partitions: Partitioning
+    02-linux:
+      title: Linux
+      subnav:
+        01-utils:
+          title: Utilities
+          subnav:
+            01-users: User management
+        02-debian:
+          title: Debian
+          index: 00-index
+        03-gentoo:
+          title: Gentoo
+          index: 00-index
+          subnav:
+            01-analysis: Package analysis
+            02-updates: Package updates
+            03-sets: Sets
+            04-flags: USE flags
+            05-overlays: Overlays
+        04-android:
+          title: Android
+          subnav:
+            01-crdroid: crDroid
     03-tools:
       title: Tools
       path: tools
       subnav:
         01-version-control:
           title: Version control
-          index: 00-version-control
+          index: 00-index
           subnav:
             01-github: GitHub
         02-zsh:

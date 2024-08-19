@@ -1,4 +1,7 @@
-# Summary
+---
+layout: default
+title: Portage package manager
+---
 
 Portage is the package manager for Gentoo and the `emerge` command-line tool.
 
@@ -20,6 +23,7 @@ The configuration directory is in `/etc/portage` which adjusts package specifics
 > For a deeper structure most of these configuration files can be converted to directories.
 
 The most important configuration file is `make.conf` where it's possible to set USE flags globally:
+
 1. `CFLAGS` see https://wiki.gentoo.org/wiki/Safe_CFLAGS.
 2. `CXXFLAGS`.
 3. `USE` supersedes any default USE flags for package defaults.

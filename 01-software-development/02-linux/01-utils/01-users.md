@@ -1,4 +1,7 @@
-# Instructions
+---
+layout: default
+title: User management
+---
 
 A regular user facilitates the non-administrative functions of a system:
 
@@ -17,4 +20,3 @@ Substitute `larry` with your own username.
 1. Available shells are listed with `cat /etc/shells`.
 2. It is recommended to not change the root user's shell to a non-default shell. A mistake here may permanently brick your system.
 3. The root user should have a different password from all regular users. While there are smarter security measures if your machine sits all day at home, this provides an opportunity to learn when each password is used (eg.: any `sudo ...` command and `su`).
-

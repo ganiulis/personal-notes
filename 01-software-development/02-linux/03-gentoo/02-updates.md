@@ -1,4 +1,7 @@
-# Summary
+---
+layout: default
+title: Package updates
+---
 
 A modern Gentoo system requires regular updates to function as designed.
 
