@@ -1,9 +1,7 @@
 ---
 layout: default
-title: Git
+title: git
 ---
-
-## Git
 
 Git has several places where it keeps config values:
 
