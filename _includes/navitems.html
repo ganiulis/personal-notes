@@ -1,22 +1,14 @@
 <ul>
   {% for item in include.items %}
   <li>
-    {% if item[1].subnav %} {% if item[1].index %}
-    <a
-      href="{{ parent | append: '/' | append: item[0] | append: '/' | append: item[1].index }}"
-      >{{ item[1].title }}</a
-    >
-    {% else %} {{ item[1].title }} {% endif %} {% if item[1].subnav %} {% assign
-    subnav = item[1].subnav %} {% assign parent = include.parent | append: '/' |
-    append: item[0] %} {% include navitems.html items=subnav parent=parent %} {%
-    else %} {% endif %} {% else %} {% if item[1].index %}
-    <a
-      href="{{ include.parent | append: '/' | append: item[0] | append: '/' | append: item[1].index }}"
-      >{{ item[1].title }}
+    {% if item.items %} {% if item.items %} {{ item.title }} {% assign items =
+    item.items %} {% assign parent = include.parent | append: '/' | append:
+    item.path %} {% include navitems.html items=items parent=parent %} {% endif
+    %} {% else %}
+    <a href="{{ parent | append: '/' | append: item.path }}"
+      >{{ item.title }}
     </a>
-    {% else %}
-    <a href="{{ parent | append: '/' | append: item[0] }}">{{ item[1] }} </a>
-    {% endif %} {% endif %}
+    {% endif %}
   </li>
   {% endfor %}
 </ul>

@@ -1,76 +1,98 @@
-martial-arts:
-  title: Martial arts
-  subnav:
-    bjj: BJJ
-software-development:
-  title: Software Development
-  subnav:
-    data-science:
-      title: Data science
-      subnav:
-        storage-structures: Storage structures
-    hardware:
-      title: Hardware
-      subnav:
-        partitions: Partitioning
-    linux:
-      title: Linux
-      subnav:
-        android:
-          title: Android
-          subnav:
-            crdroid: crDroid
-        debian:
-          title: Debian
-          index: index
-        gentoo:
-          title: Gentoo
-          index: index
-          subnav:
-            analysis: Package analysis
-            updates: Package updates
-            sets: Sets
-            flags: USE flags
-            overlays: Overlays
-        utils:
-          title: Utilities
-          subnav:
-            users: User management
-    php:
-      title: PHP
-      subnav:
-        language:
-          title: Language
-          subnav:
-            opcache-and-jit: OPcache and JIT
-        phpstorm:
-          title: PHPStorm
-          subnav:
-            docker: Docker
-        symfony:
-          title: Symfony
-          sunbav:
-            kernel-tests: Kernel testing
-    quality:
-      title: Quality
-      sunbav:
-        tests:
-          title: Tests
-          subnav:
-            unit: Unit testing
-    soft-skills:
-      title: Soft skills
-      subnav:
-        feedback: Feedback
-    tools:
-      title: Tools
-      path: tools
-      subnav:
-        version-control:
-          title: Version control
-          index: index
-          subnav:
-            github: GitHub
-        zsh:
-          title: Zsh
-          index: zsh
+items:
+  - title: Martial arts
+    path: martial-arts
+    items:
+      - title: BJJ
+        path: bjj
+  - title: Software development
+    path: software-development
+    items:
+      - title: Data science
+        path: data-science
+        items:
+          - title: Storage structures
+            path: storage-structures
+      - title: Hardware
+        path: hardware
+        items:
+          - title: Partitions
+            path: partitions
+      - title: Linux
+        path: linux
+        items:
+          - title: Android
+            path: android
+            items:
+              - title: crDroid
+                path: crdroid
+          - title: Debian
+            path: debian
+            items:
+              - title: Upgrades
+                path: upgrades
+          - title: Gentoo
+            path: gentoo
+            items:
+              - title: Package analysis
+                path: analysis
+              - title: Package updates
+                path: updates
+              - title: Portage package manager
+                path: portage
+              - title: Sets
+                path: sets
+              - title: USE flags
+                path: flags
+              - title: Overlays
+                path: overlays
+          - title: Utilities
+            path: utils
+            items:
+              - title: User management
+                path: users
+      - title: PHP
+        path: php
+        items:
+          - title: Language
+            path: language
+            items:
+              - title: OPcache and JIT
+                path: opcache-and-jit
+          - title: PhpStorm
+            path: phpstorm
+            items:
+              - title: Docker
+                path: docker
+          - title: Symfony
+            path: symfony
+            items:
+              - title: Kernel tests
+                path: kernel-tests
+      - title: Quality
+        path: quality
+        items:
+          - title: Tests  
+            path: tests
+            items:
+              - title: Unit testing
+                path: unit
+      - title: Soft skills
+        path: soft-skills
+        items:
+          - title: Feedback
+            path: feedback
+      - title: Tools
+        path: tools
+        items:
+          - title: Version control
+            path: version-control
+            items:
+              - title: git
+                path: git
+              - title: GitHub
+                path: github
+          - title: Zsh
+            path: zsh
+            items:
+              - title: Minimal setup
+                path: minimal-setup
