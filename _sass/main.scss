@@ -1,0 +1,16 @@
+nav {
+  grid-area: nav; 
+}
+
+main { 
+  grid-area: main; 
+}
+
+body {
+  display: grid;
+  grid-template-areas: 'nav main';
+  gap: 1.5em;
+  background-color: aliceblue;
+  margin: 1em 9em;
+}
+

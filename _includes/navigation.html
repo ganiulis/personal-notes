@@ -3,8 +3,8 @@
   <li>
     {% if item.items %} {% if item.items %} {{ item.title }} {% assign items =
     item.items %} {% assign parent = include.parent | append: '/' | append:
-    item.path %} {% include navitems.html items=items parent=parent %} {% endif
-    %} {% else %}
+    item.path %} {% include navigation.html items=items parent=parent %} {%
+    endif %} {% else %}
     <a href="{{ parent | append: '/' | append: item.path }}"
       >{{ item.title }}
     </a>
