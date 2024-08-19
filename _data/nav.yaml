@@ -22,7 +22,7 @@ software-development:
             crdroid: crDroid
         debian:
           title: Debian
-          index: 00-index
+          index: index
         gentoo:
           title: Gentoo
           index: index
@@ -68,9 +68,9 @@ software-development:
       subnav:
         version-control:
           title: Version control
-          index: 00-index
+          index: index
           subnav:
             01-github: GitHub
         zsh:
           title: Zsh
-          index: 00-zsh
+          index: zsh
