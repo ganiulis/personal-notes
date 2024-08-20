@@ -1,7 +1,8 @@
 ---
 layout: default
-title: Partitioning
 ---
+
+# Partitions
 
 There's a lot of different disk partition types:
 

@@ -1,7 +1,8 @@
 ---
 layout: default
-title: Minimal setup for Zsh
 ---
+
+# Minimal setup
 
 This is a manual to set up a lightweight and customizable `zsh` instance for a
 Unix environment without resorting to `oh-my-zsh`.

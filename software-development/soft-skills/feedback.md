@@ -1,7 +1,8 @@
 ---
 layout: default
-title: Feedback
 ---
+
+# Feedback
 
 Collecting feedback is a pretty good idea.
 

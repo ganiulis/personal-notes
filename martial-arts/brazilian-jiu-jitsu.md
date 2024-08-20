@@ -1,7 +1,8 @@
 ---
 layout: default
-title: Brazilian Jiu-jitsu
 ---
+
+# Brazilian jiu-jitsu
 
 ## Positions
 

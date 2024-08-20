@@ -1,7 +1,8 @@
 ---
 layout: default
-title: GitHub
 ---
+
+# GitHub
 
 ## Summary
 

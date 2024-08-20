@@ -1,7 +1,8 @@
 ---
 layout: default
-title: Portage package manager
 ---
+
+# Portage package manager
 
 Portage is the package manager for Gentoo and the `emerge` command-line tool.
 

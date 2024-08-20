@@ -1,9 +1,8 @@
 ---
 layout: default
-title: Home
 ---
 
-# Introduction
+# Personal notes
 
 Hello.
 

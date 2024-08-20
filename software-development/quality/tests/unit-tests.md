@@ -1,7 +1,8 @@
 ---
 layout: default
-title: Unit testing
 ---
+
+# Unit tests
 
 Unit tests have several uses, sorted by value:
 

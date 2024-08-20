@@ -1,7 +1,8 @@
 ---
 layout: default
-title: Upgrades
 ---
+
+# Upgrades
 
 This is a short recipe for a minimal, up-to-date Debian system.
 

@@ -1,7 +1,8 @@
 ---
 layout: default
-title: PHPStorm Docker Integration
 ---
+
+# Docker
 
 Docker, along with any common PHP extension, has built-in support in PHPStorm.
 

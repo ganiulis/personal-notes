@@ -1,7 +1,8 @@
 ---
 layout: default
-title: USE flags
 ---
+
+# USE flags
 
 Flag priority is configured with `USE_ORDER` and has a default order of priority:
 

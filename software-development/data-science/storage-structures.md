@@ -1,7 +1,8 @@
 ---
 layout: default
-title: Storage structures
 ---
+
+# Storage structures
 
 ## Hash Table
 

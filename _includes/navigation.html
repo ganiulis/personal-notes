@@ -1,4 +1,7 @@
-<ul>
+<ul
+  class="{% if include.first == true %}minimal-list-first{% else %}minimal-list{% endif %}"
+>
+  <li>{% if include.first == true %}<a href="/">Home </a>{% endif %}</li>
   {% for item in include.items %}
   <li>
     {% if item.items %} {% if item.items %} {{ item.title }} {% assign items =

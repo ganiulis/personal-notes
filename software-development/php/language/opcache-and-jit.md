@@ -1,7 +1,8 @@
 ---
 layout: default
-title: OPcache and the Just-in-Time Compiler
 ---
+
+# OPcache and the Just-in-Time Compiler
 
 ## Synopsis
 

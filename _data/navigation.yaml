@@ -2,8 +2,8 @@ items:
   - title: Martial arts
     path: martial-arts
     items:
-      - title: BJJ
-        path: bjj
+      - title: Brazilian jiu-jitu
+        path: brazilian-jiu-jitsu
   - title: Software development
     path: software-development
     items:
@@ -75,7 +75,7 @@ items:
             path: tests
             items:
               - title: Unit testing
-                path: unit
+                path: unit-tests
       - title: Soft skills
         path: soft-skills
         items:

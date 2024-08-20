@@ -1,7 +1,8 @@
 ---
 layout: default
-title: User management
 ---
+
+# Users
 
 A regular user facilitates the non-administrative functions of a system:
 
