@@ -1,9 +1,12 @@
+$base-black: #111;
+
 ::-webkit-scrollbar {
-  width: 0.8em;
+  width: 1em;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #111;
+  background: $base-black;
+  border-radius: 0.5em;
 }
 
 ::-webkit-scrollbar-thumb:hover {
@@ -20,8 +23,13 @@ html {
 }
 
 body {
+  color: $base-black;
   background-color: #f5fefd;
   overflow-wrap: break-word;
+}
+
+h1 {
+  border-bottom: 1px solid $base-black;
 }
 
 @media only screen and (min-width: 768px) {
@@ -54,12 +62,12 @@ body {
 
 code {
   padding: 1px 3px;
-  background-color: #111;
+  background-color: $base-black;
   color: #5cfc00;
 }
 
 .highlight {
-  background-color: #111;
+  background-color: $base-black;
   padding: 1px 3px;
 }
 
