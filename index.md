@@ -8,4 +8,4 @@ Hello.
 
 I publish my personal notes here.
 
-My notes internally use the [Johnny.Decimal](https://johnnydecimal.com) system.
+My notes used to internally use the [Johnny.Decimal](https://johnnydecimal.com) system.
