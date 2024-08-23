@@ -123,6 +123,7 @@ items:
               - title: GitButler
                 website: https://gitbutler.com
               - title: GitHub
+                website: https://github.com
                 path: github
           - title: Zsh
             website: https://www.zsh.org
