@@ -9,8 +9,6 @@ Docker, along with any common PHP extension, has built-in support in PHPStorm.
 Many applications within the PHP container can be connected with PHPStorm for
 seamless development, debugging, and testing.
 
-# Instructions
-
 ## PHP Server
 
 PHPStorm can connect to a remote PHP interpreter:
@@ -48,7 +46,7 @@ PHPStan can be connected with PHPStorm.
 4. Set the configuration file `.../phpstan.neon`.
 5. Set the autoload file `.../vendor/autoload.php`.
 
-# Tips
+## Tips
 
 1. Most configuration paths are meant to be used inside the container, not the
    host machine.
