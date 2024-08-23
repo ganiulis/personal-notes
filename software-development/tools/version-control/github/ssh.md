@@ -2,11 +2,11 @@
 layout: default
 ---
 
-# GitHub
+# SSH
 
 ## Summary
 
-GitHub offers easy integration with a local SSH client to access public/private
+[GitHub](https://github.com) offers easy integration with a local SSH client to access public/private
 repositories via SSH instead of HTTPS.
 
 ## Instructions
