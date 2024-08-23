@@ -16,16 +16,17 @@ body {
 }
 
 main,
-nav > div {
+nav {
   background-color: $color-background-base;
+  padding-bottom: 16px;
 }
 
-nav > div > ul {
+nav > ul {
   font-size: 16px;
   font-weight: bold;
   list-style: none;
   margin-bottom: 0;
-  padding: 0 8px 16px 16px;
+  padding: 0 8px 0 16px;
 }
 
 .subnav {
@@ -35,7 +36,7 @@ nav > div > ul {
 }
 
 article > *:not(h1, ol, ul) {
-  padding: 0 24px;
+  padding: 0 12px 0 24px;
 }
 
 h1 {
