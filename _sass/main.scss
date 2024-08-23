@@ -1,6 +1,6 @@
 $color-text-base: #111;
 $color-background-base: whitesmoke;
-$color-accent-base: #42a5f5;
+$color-accent-base: #4b9cd3;
 
 html {
   font-family: Arial, Helvetica, sans-serif;
@@ -49,6 +49,16 @@ h1 {
 article > ol,
 article > ul {
   padding: 0 60px;
+}
+
+a {
+  color: #4b9cd3;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #4b9cd3;
+  text-decoration: underline;
 }
 
 @media only screen and (min-width: 1200px) {

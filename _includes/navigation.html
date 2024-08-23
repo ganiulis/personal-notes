@@ -6,7 +6,10 @@
   {% endif %} {% for item in include.items %}
   <li>
     {% if item.website %}
-    <a href="{{ item.website }} " target="_blank">{{ item.title }} [🔗]</a>
+    <a href="{{ item.website }} " target="_blank"
+      >{{ item.title }}
+      <img src="{{ item.baseurl }}/assets/images/external-link.svg"
+    /></a>
     {% elsif item.path and item.items %} {{ item.title }} {% else %}
     <a
       href="{{ site.baseurl }}{{ include.parent | append: '/' | append: item.path }}"
