@@ -76,6 +76,7 @@ items:
               - title: User management
                 path: users
       - title: PHP
+        website: https://www.php.net
         path: php
         items:
           - title: Doctrine
