@@ -120,6 +120,8 @@ items:
             items:
               - title: git
                 path: git
+              - title: GitButler
+                website: https://gitbutler.com
               - title: GitHub
                 path: github
           - title: Zsh

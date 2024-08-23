@@ -5,16 +5,16 @@
   </li>
   {% endif %} {% for item in include.items %}
   <li>
-    {% if item.items %} {% if item.website %}
+    {% if item.website %}
     <a href="{{ item.website }} " target="_blank">{{ item.title }} [🔗]</a>
-    {% else %} {{ item.title }} {% endif %} {% assign items = item.items %} {%
-    assign parent = include.parent | append: '/' | append: item.path %} {%
-    include navigation.html items=items parent=parent %} {% else %}
+    {% elsif item.path and item.items %} {{ item.title }} {% else %}
     <a
       href="{{ site.baseurl }}{{ include.parent | append: '/' | append: item.path }}"
-      >{{ item.title }}
-    </a>
-    {% endif %}
+      >{{ item.title }}</a
+    >
+    {% endif %} {% if item.items %} {% assign items = item.items %} {% assign
+    parent = include.parent | append: '/' | append: item.path %} {% include
+    navigation.html items=items parent=parent %} {% endif %}
   </li>
   {% endfor %}
 </ul>
