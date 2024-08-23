@@ -28,7 +28,7 @@ Rules:
 4. All leaves are at the same height.
 5. A non-leaf node with x children has x−1 keys.
 
-# Trace
+## Trace
 
 1. Hash tables. https://www.youtube.com/watch?v=KyUTuwz_b7Q.
 2. B-Tree. https://www.youtube.com/watch?v=NI9wYuVIYcA.

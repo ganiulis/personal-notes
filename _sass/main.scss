@@ -26,23 +26,23 @@ nav > ul {
   font-weight: bold;
   list-style: none;
   margin-bottom: 0;
-  padding: 0 8px 0 16px;
+  padding: 0 16px;
 }
 
 .subnav {
   list-style: none;
-  padding: 0 0 0 16px;
+  padding: 0 8px 0 16px;
   font-weight: normal;
 }
 
 article > *:not(h1, ol, ul) {
-  padding: 0 12px 0 24px;
+  padding: 0 24px;
 }
 
 h1 {
   background-color: $color-accent-base;
   color: $color-background-base;
-  padding: 8px 18px;
+  padding: 8px 22px;
   margin-top: 0;
   margin-bottom: 0;
 }
@@ -56,13 +56,13 @@ article > ul {
   body {
     display: flex;
     margin-right: 260px;
-  }
-  nav {
-    margin-right: 16px;
-    min-width: 25%;
-    max-width: 25%;
-  }
-  main {
-    width: 100%;
+    nav {
+      min-width: 25%;
+      max-width: 25%;
+    }
+    main {
+      margin: 0 16px;
+      width: 75%;
+    }
   }
 }
