@@ -32,6 +32,8 @@ items:
         items:
           - title: Storage structures
             path: storage-structures
+      - title: Go
+        website: https://go.dev
       - title: Hardware
         path: hardware
         items:
