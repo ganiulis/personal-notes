@@ -1,0 +1,20 @@
+<ul class="{% if include.first != true %}subnav{% endif %}">
+  {% if include.first == true %}
+  <li>
+    <a href="{{ site.baseurl }}">Home</a>
+  </li>
+  {% endif %} {% for item in include.items %}
+  <li>
+    {% if item.items %} {% if item.website %}
+    <a href="{{ item.website }} " target="_blank">{{ item.title }} [🔗]</a>
+    {% else %} {{ item.title }} {% endif %} {% assign items = item.items %} {%
+    assign parent = include.parent | append: '/' | append: item.path %} {%
+    include navigation.html items=items parent=parent %} {% else %}
+    <a
+      href="{{ site.baseurl }}{{ include.parent | append: '/' | append: item.path }}"
+      >{{ item.title }}
+    </a>
+    {% endif %}
+  </li>
+  {% endfor %}
+</ul>

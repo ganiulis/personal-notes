@@ -1,0 +1,67 @@
+$color-text-base: #111;
+$color-background-base: whitesmoke;
+$color-accent-base: #42a5f5;
+$color-shadows: silver;
+
+html {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+}
+
+body {
+  background-color: gainsboro;
+  color: $color-text-base;
+  overflow-wrap: break-word;
+  margin: 0;
+}
+
+main,
+nav > div {
+  background-color: $color-background-base;
+}
+
+nav > div > ul {
+  font-size: 16px;
+  font-weight: bold;
+  list-style: none;
+  margin-bottom: 0;
+  padding: 0 8px 16px 16px;
+}
+
+.subnav {
+  list-style: none;
+  padding: 0 0 0 16px;
+  font-weight: normal;
+}
+
+article > *:not(h1, ol, ul) {
+  padding: 0 24px;
+}
+
+h1 {
+  background-color: $color-accent-base;
+  color: $color-background-base;
+  padding: 8px 18px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+article > ol,
+article > ul {
+  padding: 0 60px;
+}
+
+@media only screen and (min-width: 1200px) {
+  body {
+    display: flex;
+    margin-right: 260px;
+  }
+  nav {
+    margin-right: 16px;
+    min-width: 25%;
+    max-width: 25%;
+  }
+  main {
+    width: 100%;
+  }
+}

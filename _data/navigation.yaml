@@ -1,0 +1,130 @@
+items:
+  - title: Martial arts
+    path: martial-arts
+    items:
+      - title: Brazilian jiu-jitu
+        path: brazilian-jiu-jitsu
+  - title: Project management
+    path: project-management
+    items:
+      - title: Books
+        path: books
+        items:
+          - title: DeMarco, T. and Lister, T. (2013). Peopleware, 3rd ed.
+            path: peopleware
+          - title: Pais, M. and Skelton, M. (2019). Team Topologies.
+            path: team-topologies
+  - title: Software development
+    path: software-development
+    items:
+      - title: DevOps
+        path: devops
+        items:
+          - title: Books
+            path: books
+            items:
+              - title: Domingus, J. and Arundel, J. (2022). Cloud Native DevOps with Kubernetes, 2nd ed.
+                path: cloud-native-devops-with-kubernetes
+              - title: Vinto, N. and Bueno, A. S. (2023-01-03). GitOps Cookbook, 1st ed.
+                path: gitops-cookbook
+      - title: Data science
+        path: data-science
+        items:
+          - title: Storage structures
+            path: storage-structures
+      - title: Hardware
+        path: hardware
+        items:
+          - title: Partitions
+            path: partitions
+      - title: Linux
+        path: linux
+        items:
+          - title: Android
+            website: https://www.android.com
+            path: android
+            items:
+              - title: crDroid
+                path: crdroid
+          - title: Debian
+            website: https://www.debian.org
+            path: debian
+            items:
+              - title: Upgrades
+                path: upgrades
+          - title: Gentoo
+            website: https://www.gentoo.org
+            path: gentoo
+            items:
+              - title: Package analysis
+                path: analysis
+              - title: Package updates
+                path: updates
+              - title: Portage package manager
+                path: portage
+              - title: Sets
+                path: sets
+              - title: USE flags
+                path: flags
+              - title: Overlays
+                path: overlays
+          - title: Utilities
+            path: utils
+            items:
+              - title: User management
+                path: users
+      - title: PHP
+        path: php
+        items:
+          - title: Doctrine
+            website: https://www.doctrine-project.org
+            path: doctrine
+            items:
+              - title: PostgreSQL schema generation fix
+                path: postgresql-schema-generation-fix
+          - title: Language
+            path: language
+            items:
+              - title: OPcache and JIT
+                path: opcache-and-jit
+          - title: PhpStorm
+            website: https://www.jetbrains.com/phpstorm/
+            path: phpstorm
+            items:
+              - title: Docker
+                path: docker
+          - title: Symfony
+            website: https://symfony.com
+            path: symfony
+            items:
+              - title: Kernel tests
+                path: kernel-tests
+      - title: Quality
+        path: quality
+        items:
+          - title: Tests  
+            path: tests
+            items:
+              - title: Unit testing
+                path: unit-tests
+      - title: Soft skills
+        path: soft-skills
+        items:
+          - title: Feedback
+            path: feedback
+      - title: Tools
+        path: tools
+        items:
+          - title: Version control
+            path: version-control
+            items:
+              - title: git
+                path: git
+              - title: GitHub
+                path: github
+          - title: Zsh
+            website: https://www.zsh.org
+            path: zsh
+            items:
+              - title: Minimal setup
+                path: minimal-setup
