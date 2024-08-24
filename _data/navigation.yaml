@@ -112,8 +112,6 @@ items:
             items:
               - title: Checkout UI
                 website: https://shopify.dev/docs/api/checkout-ui-extensions
-          - title: REST Admin API
-            website: https://shopify.dev/docs/api/admin-rest
       - title: Quality
         path: quality
         items:
