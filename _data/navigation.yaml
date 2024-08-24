@@ -103,12 +103,21 @@ items:
             items:
               - title: Kernel tests
                 path: kernel-tests
-      - title: Shopify
+      - title: Shopify Developers Platform
         website: https://shopify.dev
+        path: shopify
+        items:
+          - title: Extensions
+            path: extensions
+            items:
+              - title: Checkout UI
+                website: https://shopify.dev/docs/api/checkout-ui-extensions
+          - title: REST Admin API
+            website: https://shopify.dev/docs/api/admin-rest
       - title: Quality
         path: quality
         items:
-          - title: Tests  
+          - title: Tests
             path: tests
             items:
               - title: Unit testing
