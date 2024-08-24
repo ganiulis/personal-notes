@@ -112,6 +112,9 @@ items:
             items:
               - title: Checkout UI
                 website: https://shopify.dev/docs/api/checkout-ui-extensions
+                items:
+                  - title: Configuration
+                    path: configuration
       - title: Quality
         path: quality
         items:
