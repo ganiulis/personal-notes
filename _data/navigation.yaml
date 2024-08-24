@@ -103,6 +103,8 @@ items:
             items:
               - title: Kernel tests
                 path: kernel-tests
+      - title: Shopify
+        website: https://shopify.dev
       - title: Quality
         path: quality
         items:
