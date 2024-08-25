@@ -14,7 +14,7 @@ items:
             path: peopleware
           - title: Pais, M. and Skelton, M. (2019). Team Topologies.
             path: team-topologies
-      - title: Frameworks
+      - title: Papers
         path: papers
         items:
           - title: Forsgren, N. et al. (2021) The SPACE of Developer Productivity
