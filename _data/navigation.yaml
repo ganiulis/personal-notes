@@ -108,7 +108,7 @@ items:
         path: shopify
         items:
           - title: App Bridge
-            website: https://shopify.dev/docs/api/app-bridge
+            path: app-bridge
           - title: CLI
             path: cli
           - title: Extensions
