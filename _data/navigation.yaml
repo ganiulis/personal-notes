@@ -107,6 +107,8 @@ items:
         website: https://shopify.dev
         path: shopify
         items:
+          - title: Development
+            path: development
           - title: Extensions
             path: extensions
             items:
