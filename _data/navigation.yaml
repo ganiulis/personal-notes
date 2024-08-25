@@ -107,8 +107,10 @@ items:
         website: https://shopify.dev
         path: shopify
         items:
-          - title: Development
-            path: development
+          - title: App Bridge
+            website: https://shopify.dev/docs/api/app-bridge
+          - title: CLI
+            path: cli
           - title: Extensions
             path: extensions
             items:
