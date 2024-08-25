@@ -110,6 +110,8 @@ items:
           - title: Extensions
             path: extensions
             items:
+              - title: Admin UI
+                website: https://shopify.dev/docs/api/admin-extensions
               - title: Checkout UI
                 website: https://shopify.dev/docs/api/checkout-ui-extensions
                 path: checkout-ui
