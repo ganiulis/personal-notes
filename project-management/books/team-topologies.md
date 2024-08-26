@@ -2,11 +2,11 @@
 layout: default
 ---
 
-# Pais, M. and Skelton, M. (2019). Team Topologies.
+# Pais, M. and Skelton, M. (2019). Team Topologies
 
 Website: https://teamtopologies.com.
 
-## Part I. Teams as the Means of Delivery. pp. 3–60.
+## Part I. Teams as the Means of Delivery. pp. 3–60
 
 ### The Problem with Org Charts. pp. 3–14.
 

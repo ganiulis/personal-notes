@@ -1,4 +1,9 @@
 items:
+  - title: Books
+    path: books
+    items:
+      - title: Greene, R. (2006). The 33 Strategies of War
+        path: 33-strategies-of-war
   - title: Martial arts
     path: martial-arts
     items:
