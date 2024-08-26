@@ -35,6 +35,8 @@ items:
       - title: Data science
         path: data-science
         items:
+          - title: Joins
+            path: joins
           - title: Storage structures
             path: storage-structures
       - title: Hardware
