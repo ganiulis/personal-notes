@@ -46,7 +46,7 @@ items:
             path: partitions
       - title: TypeScript
         items:
-          - title: Best practices
+          - title: Best practices (AWS)
             website: https://docs.aws.amazon.com/prescriptive-guidance/latest/best-practices-cdk-typescript-iac/typescript-best-practices.html
       - title: Linux
         website: https://www.linux.org
