@@ -1,4 +1,4 @@
-<ul class="{% if include.first != true %}subnav{% endif %}">
+<ul class="subnav">
   {% if include.first == true %}
   <li>
     <a href="{{ site.baseurl }}">Home</a>
@@ -17,7 +17,7 @@
     >
     {% endif %} {% if item.items %} {% assign items = item.items %} {% assign
     parent = include.parent | append: '/' | append: item.path %} {% include
-    navigation.html items=items parent=parent %} {% endif %}
+    navigation-tree.html items=items parent=parent %} {% endif %}
   </li>
   {% endfor %}
 </ul>

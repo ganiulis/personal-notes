@@ -1,0 +1,6 @@
+<h2><a href="{{ site.baseurl }}">Home</a></h2>
+{% for item in include.items %}
+<h2><b>{{ item.title }}</b></h2>
+{% assign items = item.items %} {% assign parent = include.parent | append: '/'
+| append: item.path %} {% include navigation-tree.html items=items parent=parent
+%} {% endfor %}

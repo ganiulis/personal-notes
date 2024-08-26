@@ -17,7 +17,8 @@ layout: default
   </head>
   <body>
     <nav>
-      {% include navigation.html items=site.data.navigation.items first=true %}
+      {% include navigation-root.html items=site.data.navigation.items
+      first=true %}
     </nav>
     <main>
       <article>{{ content }}</article>
