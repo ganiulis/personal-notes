@@ -15,9 +15,11 @@ html {
     }
     main,
     nav {
-      font-size: 16px;
       background-color: $color-background-base;
       padding-bottom: 16px;
+    }
+    nav {
+      font-size: 16px;
     }
     nav > ul {
       margin-top: 0;
