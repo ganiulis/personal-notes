@@ -37,18 +37,53 @@ items:
         items:
           - title: Storage structures
             path: storage-structures
-      - title: Go
-        website: https://go.dev
       - title: Hardware
         path: hardware
         items:
           - title: Partitions
             path: partitions
-      - title: TypeScript
-        path: typescript
+      - title: Languages
+        path: languages
         items:
-          - title: Best practices (AWS)
-            website: https://docs.aws.amazon.com/prescriptive-guidance/latest/best-practices-cdk-typescript-iac/typescript-best-practices.html
+          - title: Go
+            website: https://go.dev
+            path: go
+          - title: PHP
+            website: https://www.php.net
+            path: php
+            items:
+              - title: Doctrine
+                website: https://www.doctrine-project.org
+                path: doctrine
+                items:
+                  - title: PostgreSQL schema generation fix
+                    path: postgresql-schema-generation-fix
+              - title: OPcache and JIT
+                path: opcache-and-jit
+              - title: PhpStorm
+                website: https://www.jetbrains.com/phpstorm/
+                path: phpstorm
+                items:
+                  - title: Docker
+                    path: docker
+              - title: Symfony
+                website: https://symfony.com
+                path: symfony
+                items:
+                  - title: Kernel tests
+                    path: kernel-tests
+          - title: Rust
+            website: https://www.rust-lang.org
+            path: rust
+            items:
+              - title: Rocket
+                website: https://rocket.rs
+                path: rocket
+          - title: TypeScript
+            path: typescript
+            items:
+              - title: Best practices (AWS)
+                website: https://docs.aws.amazon.com/prescriptive-guidance/latest/best-practices-cdk-typescript-iac/typescript-best-practices.html
       - title: Linux
         website: https://www.linux.org
         path: linux
@@ -86,33 +121,6 @@ items:
             items:
               - title: User management
                 path: users
-      - title: PHP
-        website: https://www.php.net
-        path: php
-        items:
-          - title: Doctrine
-            website: https://www.doctrine-project.org
-            path: doctrine
-            items:
-              - title: PostgreSQL schema generation fix
-                path: postgresql-schema-generation-fix
-          - title: Language
-            path: language
-            items:
-              - title: OPcache and JIT
-                path: opcache-and-jit
-          - title: PhpStorm
-            website: https://www.jetbrains.com/phpstorm/
-            path: phpstorm
-            items:
-              - title: Docker
-                path: docker
-          - title: Symfony
-            website: https://symfony.com
-            path: symfony
-            items:
-              - title: Kernel tests
-                path: kernel-tests
       - title: Shopify Developers Platform
         website: https://shopify.dev
         path: shopify
