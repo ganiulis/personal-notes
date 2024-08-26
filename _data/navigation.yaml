@@ -80,6 +80,7 @@ items:
                 website: https://rocket.rs
                 path: rocket
           - title: TypeScript
+            website: https://www.typescriptlang.org
             path: typescript
             items:
               - title: Best practices (AWS)
