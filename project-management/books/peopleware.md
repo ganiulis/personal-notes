@@ -4,9 +4,9 @@ layout: default
 
 # DeMarco, T. and Lister, T. (2013). Peopleware, 3rd ed.
 
-## (2024-07-13). Part I. Managing the Human Resource. pp. 1–34
+## (2024-07-13). Part I. Managing the Human Resource. pp. 1–34.
 
-### 2024-07-13. Vienna Waits for You. pp. 13–18
+### 2024-07-13. Vienna Waits for You. pp. 13–18.
 
 The Spanish Theory holds that only a fixed amount of value exists on Earth. The English Theory holds that value can be created through ingenuity and technology.
 
