@@ -10,9 +10,6 @@ html {
     color: $color-text-base;
     overflow-wrap: break-word;
     margin: 0;
-    nav {
-      padding-top: 8px;
-    }
     main,
     nav {
       background-color: $color-background-base;
@@ -20,6 +17,7 @@ html {
     }
     nav {
       font-size: 16px;
+      padding-top: 8px;
     }
     nav > ul {
       margin-top: 0;
