@@ -5,10 +5,12 @@
   </li>
   {% endif %} {% for item in include.items %}
   <li>
-    {% if item.website %}
+    {% if item.icon %}
+    <img src="{{ site.baseurl }}/assets/icons/{{ item.icon }}" />
+    {% endif %} {% if item.website %}
     <a href="{{ item.website }} " target="_blank"
       >{{ item.title }}
-      <img src="{{ site.baseurl }}/assets/images/external-link.svg"
+      <img src="{{ site.baseurl }}/assets/icons/external-link.svg"
     /></a>
     {% elsif item.path and item.items %} {{ item.title }} {% else %}
     <a

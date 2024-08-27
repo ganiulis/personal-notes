@@ -49,11 +49,18 @@ items:
         items:
           - title: Partitions
             path: partitions
+      - title: Text editors
+        path: text-editors
+        items:
+          - title: Neovim
+            website: https://neovim.io
+            icon: neovim.svg
       - title: Languages
         path: languages
         items:
           - title: Go
             website: https://go.dev
+            icon: go.svg
             path: go
           - title: PHP
             website: https://www.php.net
