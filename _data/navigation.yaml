@@ -55,6 +55,9 @@ items:
           - title: Neovim
             website: https://neovim.io
             icon: neovim.svg
+            items:
+              - title: NvChad
+                website: https://nvchad.com
       - title: Languages
         path: languages
         items:
