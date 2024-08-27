@@ -145,6 +145,8 @@ items:
         items:
           - title: App Bridge
             path: app-bridge
+          - title: App surfaces
+            path: app-surfaces
           - title: CLI
             path: cli
           - title: Extensions
