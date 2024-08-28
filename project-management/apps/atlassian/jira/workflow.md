@@ -9,7 +9,7 @@ My workflow template for new Jira projects:
 1. Draft: new issues
 2. Blocked: need external support
    - Stop: to Ready
-   - Restart: to Doing
+   - Unblock: to Doing
 3. Ready
    - Regress: to Draft
    - Block: to Blocked
