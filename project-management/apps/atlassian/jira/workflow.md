@@ -22,5 +22,6 @@ My workflow template for new Jira projects:
    - Block: to Blocked
    - Regress: to Doing
    - Complete: to Done
+   - Deploy: to Done
 6. Done
    - Regress: to Review
