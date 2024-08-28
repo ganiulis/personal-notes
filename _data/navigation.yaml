@@ -27,6 +27,8 @@ items:
                     path: apps
                   - title: Issue types
                     path: issue-types
+                  - title: Workflow
+                    path: workflow
               - title: Confluence
                 website: https://www.atlassian.com/software/confluence
           - title: Slack
