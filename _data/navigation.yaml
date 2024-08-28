@@ -23,6 +23,8 @@ items:
                 website: https://www.atlassian.com/software/jira
                 path: jira
                 items:
+                  - title: Apps
+                    path: apps
                   - title: Issue types
                     path: issue-types
               - title: Confluence
