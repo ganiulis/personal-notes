@@ -4,4 +4,4 @@ layout: default
 
 # Apps
 
-To be done.
+1. [GitHub for Jira by Atlassian](https://marketplace.atlassian.com/apps/1219592/github-for-jira)
