@@ -12,6 +12,23 @@ items:
   - title: Project management
     path: project-management
     items:
+      - title: Apps
+        path: apps
+        items:
+          - title: Atlassian products
+            website: https://www.atlassian.com
+            path: atlassian
+            items:
+              - title: Jira
+                website: https://www.atlassian.com/software/jira
+                path: jira
+                items:
+                  - title: Issue types
+                    path: issue-types
+              - title: Confluence
+                website: https://www.atlassian.com/software/confluence
+          - title: Slack
+            website: https://slack.com 
       - title: Books
         path: books
         items:
