@@ -71,6 +71,8 @@ items:
       - title: Text editors
         path: text-editors
         items:
+          - title: GNU Emacs
+            website: https://www.gnu.org/software/emacs/
           - title: Neovim
             website: https://neovim.io
             icon: neovim.svg
