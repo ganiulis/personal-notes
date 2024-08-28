@@ -11,7 +11,7 @@ My workflow template for new Jira projects:
    - Stop: to Ready
    - Restart: to Doing
 3. Ready
-   - Draft: to Draft
+   - Regress: to Draft
    - Block: to Blocked
    - Start: to Doing
 4. Doing
