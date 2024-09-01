@@ -86,6 +86,8 @@ items:
                 items:
                   - title: conform.nvim—formatter plugin
                     path: conform-nvim
+                  - title: mason.nvim—LSP package manager
+                    website: https://github.com/williamboman/mason.nvim
       - title: Languages
         path: languages
         items:
