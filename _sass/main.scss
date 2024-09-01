@@ -10,6 +10,11 @@ html {
     color: $color-text-base;
     overflow-wrap: break-word;
     margin: 0;
+    main {
+      code:not(.highlight *) {
+        color: #8f9e43;
+      }
+    }
     main,
     nav {
       background-color: $color-background-base;
@@ -66,15 +71,18 @@ a:hover {
 @media only screen and (min-width: 1200px) {
   body {
     display: flex;
-    margin-right: 260px;
+    height: 100vh;
     nav {
+      overflow: auto;
       min-width: 25%;
       max-width: 25%;
       padding-top: 0;
     }
     main {
-      margin: 0 16px;
+      overflow-x: auto;
       width: 75%;
+      margin-left: 16px;
+      margin-right: 260px;
     }
   }
 }
