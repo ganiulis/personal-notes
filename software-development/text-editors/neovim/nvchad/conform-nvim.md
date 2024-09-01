@@ -30,4 +30,4 @@ See <https://github.com/stevearc/conform.nvim?tab=readme-ov-file#formatters> for
 
 Alternatively run the `:help conform.list_all_formatters` command.
 
-[Prettier](https://github.com/prettier/prettier) is a standard formatter for many languages.
+- [Prettier](https://github.com/prettier/prettier) is a standard formatter for many languages and can be a good default or first-step formatter.
