@@ -31,6 +31,8 @@ items:
                     path: workflow
               - title: Confluence
                 website: https://www.atlassian.com/software/confluence
+          - title: Notion
+            website: https://www.notion.so
           - title: Slack
             website: https://slack.com 
       - title: Books
