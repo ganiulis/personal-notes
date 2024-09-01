@@ -4,7 +4,7 @@ layout: default
 
 # Greene, R. (2006). The 33 Strategies of War
 
-## (2024-08-26). 29—Take Small Bites: The Fait Accompli Strategy. pp. 383–392
+## 2024-09-01 (2024-08-26). 29—Take Small Bites: The Fait Accompli Strategy. pp. 383–392
 
 Charles de Gaulle is a French general who organized a French resistance movement by giving speeches on the BBC broadcast. Do not lower your ambitions but disguise your ambitions.
 
