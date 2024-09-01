@@ -78,9 +78,14 @@ items:
           - title: Neovim
             website: https://neovim.io
             icon: neovim.svg
+            path: neovim
             items:
               - title: NvChad
                 website: https://nvchad.com
+                path: nvchad
+                items:
+                  - title: conform.nvim—formatter plugin
+                    path: conform-nvim
       - title: Languages
         path: languages
         items:
