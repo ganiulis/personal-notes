@@ -4,6 +4,8 @@ layout: default
 
 # conform.nvim—formatter plugin
 
+See <https://github.com/stevearc/conform.nvim>.
+
 Sample setup:
 
 ```lua
@@ -19,3 +21,5 @@ require("conform").setup({
   },
 })
 ```
+
+See <https://github.com/stevearc/conform.nvim?tab=readme-ov-file#formatters> for a list of formatters.
