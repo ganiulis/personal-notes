@@ -210,7 +210,7 @@ items:
       - title: Tools
         path: tools
         items:
-          - title: jq
+          - title: jq—JSON processor
             path: jq
           - title: Version control
             path: version-control
