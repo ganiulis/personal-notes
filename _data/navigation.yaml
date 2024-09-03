@@ -210,6 +210,8 @@ items:
       - title: Tools
         path: tools
         items:
+          - title: jq
+            path: jq
           - title: Version control
             path: version-control
             items:
