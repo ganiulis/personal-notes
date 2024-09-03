@@ -6,7 +6,7 @@ layout: default
 
 ## Introduction
 
-(jq)[https://jqlang.github.io/jq/] is a [JSON](https://www.json.org/json-en.html) parser and formatter for the command-line. It ingests JSON as input and yields human-readable output.
+[jq](https://jqlang.github.io/jq/]) is a [JSON](https://www.json.org/json-en.html) parser and formatter for the command-line. It ingests JSON as input and yields human-readable output.
 
 Useful for parsing JSON-formatted system logs.
 
