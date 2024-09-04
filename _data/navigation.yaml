@@ -40,7 +40,7 @@ items:
         items:
           - title: DeMarco, T. and Lister, T. (2013). Peopleware, 3rd ed.
             path: peopleware
-          - title: Pais, M. and Skelton, M. (2019). Team Topologies.
+          - title: Pais, M. and Skelton, M. (2019). Team Topologies
             path: team-topologies
       - title: Papers
         path: papers
