@@ -4,6 +4,8 @@ items:
     items:
       - title: Greene, R. (2006). The 33 Strategies of War
         path: 33-strategies-of-war
+      - title: Greene, R. (1998). The 48 Laws of Power
+        path: 48-laws-of-power
   - title: Martial arts
     path: martial-arts
     items:
