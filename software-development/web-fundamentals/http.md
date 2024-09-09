@@ -8,7 +8,7 @@ HTTPS is HTTP with encryption and verification.
 
 HTTPS uses SSL/TLS to encrypt HTTP requests and responses between the client and server.
 
-Popular tools such as [OpenSSL](https://www.openssl.org) can encrypt and verify HTTP requests and responses.
+Popular tools such as [OpenSSL](https://www.openssl.org) and [mkcert](https://github.com/FiloSottile/mkcert) can encrypt and verify HTTP requests and responses.
 
 ## Further reading
 
