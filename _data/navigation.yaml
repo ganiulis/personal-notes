@@ -154,6 +154,7 @@ items:
                 path: upgrades
           - title: Gentoo
             website: https://www.gentoo.org
+            icon: gentoo.svg
             path: gentoo
             items:
               - title: Package analysis
