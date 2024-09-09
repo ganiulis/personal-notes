@@ -50,6 +50,15 @@ items:
   - title: Software development
     path: software-development
     items:
+      - title: Design
+        path: design
+        items:
+          - title: Domain-driven design
+            website: https://martinfowler.com/bliki/DomainDrivenDesign.html
+            path: ddd
+            items:
+              - title: Ubiquitous language
+                website: https://martinfowler.com/bliki/UbiquitousLanguage.html
       - title: DevOps
         path: devops
         items:
@@ -201,15 +210,6 @@ items:
       - title: Quality
         path: quality
         items:
-          - title: Patterns
-            path: patterns
-            items:
-              - title: Domain-driven design
-                website: https://martinfowler.com/bliki/DomainDrivenDesign.html
-                path: ddd
-                items:
-                  - title: Ubiquitous language
-                    website: https://martinfowler.com/bliki/UbiquitousLanguage.html
           - title: Tests
             path: tests
             items:
