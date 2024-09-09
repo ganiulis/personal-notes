@@ -7,3 +7,7 @@ layout: default
 HTTPS is HTTP with encryption and verification.
 
 HTTPS uses SSL/TLS to encrypt HTTP requests and responses between the client and server.
+
+## Further reading
+
+See <https://www.cloudflare.com/learning/ssl/why-is-http-not-secure/>.
