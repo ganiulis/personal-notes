@@ -231,3 +231,8 @@ items:
             items:
               - title: Minimal setup
                 path: minimal-setup
+      - title: Web fundamentals
+        path: web-fundamentals
+        items:
+          - title: Hypertext Transfer Protocol
+            path: http
