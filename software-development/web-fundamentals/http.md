@@ -65,3 +65,5 @@ Content-Type: text/plain
 
 Hello World!
 ```
+
+The server sends its public key, domain name, and other identifying information to the certificate authority (CA) for verification. The CA verifies whether server is the owner of the domain with various checks and sends back a digital certificate that the server can use to prove domain-ownership to its clients.
