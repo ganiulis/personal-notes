@@ -236,3 +236,8 @@ items:
         items:
           - title: Hypertext Transfer Protocol
             path: http
+      - title: Web tools
+        path: web-tools
+        items:
+          - title: OpenFeature—open specification for feature flags
+            website: https://openfeature.dev
