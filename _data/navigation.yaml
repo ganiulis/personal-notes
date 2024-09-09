@@ -230,6 +230,9 @@ items:
             items:
               - title: git
                 path: git
+                items:
+                  title: Semantic Versioning
+                  website: https://semver.org
               - title: GitButler
                 website: https://gitbutler.com
               - title: GitHub
