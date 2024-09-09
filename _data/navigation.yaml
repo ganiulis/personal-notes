@@ -152,7 +152,7 @@ items:
             items:
               - title: Upgrades
                 path: upgrades
-          - title: Gentoo
+          - title: Gentoo and Portage
             website: https://www.gentoo.org
             icon: gentoo.svg
             path: gentoo
@@ -169,6 +169,9 @@ items:
                 path: flags
               - title: Overlays
                 path: overlays
+          - title: Nix and NixOS
+            website: https://nixos.org
+            path: nix
           - title: Utilities
             path: utils
             items:
