@@ -135,6 +135,12 @@ Probes:
 2. `readinessProbe`—signals when the _Pod_ is ready to accept connections.
 3. `startupProbe`—called before a `readinessProbe` to determine when readiness can be checked.
 
+Why `.../healthz`? This naming convention originates from Google's internal _z-pages_ practice. _z-pages_ endpoints are set up to reduce collisions with real application endpoints.
+
+Services such as [Prometheus](https://prometheus.io) use _z-pages_ to expose and collect metrics.
+
+Similar endpoints such as `.../statusz` or `.../varz` may also be set up for application diagnostics. A more thorough answer can be found in Stack Overflow: <https://stackoverflow.com/a/43381061>. Additionally, see this Vimeo video for the rationale behind _z-pages_: <https://vimeo.com/173610242>.
+
 Google Remote Procedure Call (gRPC) has standard health-checking protocols.
 
 There are also file-based readiness probes: exec readiness probes.
