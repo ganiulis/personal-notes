@@ -16,11 +16,11 @@ These inputs vary based on the unique characteristics and varying conditions of 
 
 Two steps in drug input and response:
 
-1. Pharmacokinetics encompass the events between the administration of the drug and the distribution of the drug in the body
+1. Pharmacokinetics concerns itself with drug administration and distribution in the body
    1. Dose administration
    2. Drug in circulation
    3. Drug at site of action
-2. Pharmacodynamics encompass the arrival of the drug at its site of activation and the response of the body
+2. Pharmacodynamics concerns itself with drug concentration in the body and the biological response to the drug
    1. Drug interaction with receptor
    2. Biological response
 
