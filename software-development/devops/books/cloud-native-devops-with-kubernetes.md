@@ -141,6 +141,11 @@ Services such as [Prometheus](https://prometheus.io) use _z-pages_ to expose and
 
 Similar endpoints such as `.../statusz` or `.../varz` may also be set up for application diagnostics. A more thorough answer can be found in Stack Overflow: <https://stackoverflow.com/a/43381061>. Additionally, see this Vimeo video for the rationale behind _z-pages_: <https://vimeo.com/173610242>.
 
+[ChatGPT](https://chatgpt.com) provides some more context:
+
+1. `readinessProbe` is useful when a container takes a long time to start serving traffic or has known downtime from time to time. It runs throughout the lifecyle of the container. When it fails the pod is temporarily barred from receiving traffic but is brought back when the probe succeeds.
+2. `startupProbe` is run before the other probes and is useful when it is known that probe checks will always fail for a while, such as when a [Dockerfile `CMD`](https://docs.docker.com/reference/dockerfile/#cmd) command runs migrations or compiles files before they can be served. It runs once at the start of the container's life.
+
 Google Remote Procedure Call (gRPC) has standard health-checking protocols.
 
 There are also file-based readiness probes: exec readiness probes.
