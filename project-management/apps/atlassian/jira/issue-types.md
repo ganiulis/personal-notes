@@ -10,5 +10,3 @@ layout: default
 4. Discovery Epics are similar to spikes but substantially larger.
 
 See <https://www.atlassian.com/agile/project-management/epics-stories-themes> for more details.
-
-....
